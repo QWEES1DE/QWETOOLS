@@ -29,6 +29,13 @@
     <FileVersion>1.1.0</FileVersion>
     <AssemblyVersion>1.1.0</AssemblyVersion>
 
+    <!-- dotnet publish собирает ОДИН exe: весь .NET и ресурсы упакованы внутрь,
+         файл можно переносить и раздавать без папки -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+
     <!-- Позволяет собирать и на Linux/macOS -->
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
