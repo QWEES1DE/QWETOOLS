@@ -18,7 +18,16 @@
     <AssemblyName>QWETOOLS</AssemblyName>
     <ApplicationIcon>Assets/qwetools.ico</ApplicationIcon>
     <RootNamespace>RobRunPotato</RootNamespace>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
+
+    <!-- Метаданные файла: видны в свойствах exe и снижают подозрения эвристики антивирусов -->
+    <Product>QWETOOLS</Product>
+    <AssemblyTitle>QWETOOLS</AssemblyTitle>
+    <Company>QWETOOLS</Company>
+    <Description>Настройка профилей драйвера NVIDIA для ROB RUN (LOD Bias и т.д.)</Description>
+    <Copyright>© QWETOOLS. Работа программы не связана с NVIDIA.</Copyright>
+    <FileVersion>1.1.0</FileVersion>
+    <AssemblyVersion>1.1.0</AssemblyVersion>
 
     <!-- Позволяет собирать и на Linux/macOS -->
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
